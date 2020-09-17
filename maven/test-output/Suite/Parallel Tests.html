@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>TestNG:  Parallel Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Parallel Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 17 21:35:26 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28061 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MyRunner.SafariTestRunner.feature()'><b>feature</b><br>Test class: MyRunner.SafariTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Flight Search<br/>
+<a href="#Output-976769609" onClick='toggleBox("Output-976769609", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-976769609" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-976769609">
+Method: Open browser and start EaseMyTrip<br/>
+ 
+Safari is opening<br/>
+ 
+Page Titile is as expected<br/>
+  
+ Method : user_enter_source_and_destination_and_Departure_date<br/>
+Scurce City :Delhi<br/>
+Destination City :Pune<br/>
+Departure Date :01/11/2020<br/>
+Method:user_click_on_Search_button<br/>
+user clicked on Search button<br/>
+Method: validate_user_is_in_FLightbooking_page<br/>
+User in on Flight Booking Page<br/>
+ 
+ book fastest and cheapest flight<br/>
+Fight going to book of time : 4<br/>
+validate right flight is selected for booking<br/>
+Tab Change<br/>
+Journey Route : new delhi → pune
+                                            
+                                            
+                                                
+                                                    
+                                                    
+                                                        sunday 01 nov 2020<br/>
+Journey Date : Sunday 01 Nov 2020<br/>
+Journey Time : 04:45<br/>
+Test Case Run Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>MyRunner.SafariTestRunner@7f010382</td></tr>
+<tr>
+<td title='MyRunner.ChromeTestRunner.feature()'><b>feature</b><br>Test class: MyRunner.ChromeTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Flight Search<br/>
+<a href="#Output-931795665" onClick='toggleBox("Output-931795665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-931795665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-931795665">
+Method: Open browser and start EaseMyTrip<br/>
+ 
+Chrome is opening<br/>
+ 
+Page Titile is as expected<br/>
+  
+ Method : user_enter_source_and_destination_and_Departure_date<br/>
+Scurce City :Kolkata<br/>
+Destination City :Pune<br/>
+Departure Date :01/11/2020<br/>
+Method:user_click_on_Search_button<br/>
+user clicked on Search button<br/>
+Method: validate_user_is_in_FLightbooking_page<br/>
+User in on Flight Booking Page<br/>
+ 
+ book fastest and cheapest flight<br/>
+Fight going to book of time : 23<br/>
+validate right flight is selected for booking<br/>
+Tab Change<br/>
+Journey Route : kolkata → pune sunday 01 nov 2020<br/>
+Journey Date : Sunday 01 Nov 2020<br/>
+Journey Time : 23:35<br/>
+Test Case Run Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>MyRunner.ChromeTestRunner@4313f5bc</td></tr>
+</table><p>
+</body>
+</html>

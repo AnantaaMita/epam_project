@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Method: Open browser and start EaseMyTrip]]>
+    </line>
+    <line>
+      <![CDATA[Method: Open browser and start EaseMyTrip]]>
+    </line>
+    <line>
+      <![CDATA[ 
+Safari is opening]]>
+    </line>
+    <line>
+      <![CDATA[ 
+Chrome is opening]]>
+    </line>
+    <line>
+      <![CDATA[ 
+Page Titile is as expected]]>
+    </line>
+    <line>
+      <![CDATA[  
+ Method : user_enter_source_and_destination_and_Departure_date]]>
+    </line>
+    <line>
+      <![CDATA[ 
+Page Titile is as expected]]>
+    </line>
+    <line>
+      <![CDATA[  
+ Method : user_enter_source_and_destination_and_Departure_date]]>
+    </line>
+    <line>
+      <![CDATA[Scurce City :Delhi]]>
+    </line>
+    <line>
+      <![CDATA[Scurce City :Kolkata]]>
+    </line>
+    <line>
+      <![CDATA[Destination City :Pune]]>
+    </line>
+    <line>
+      <![CDATA[Departure Date :01/11/2020]]>
+    </line>
+    <line>
+      <![CDATA[Method:user_click_on_Search_button]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Method: validate_user_is_in_FLightbooking_page]]>
+    </line>
+    <line>
+      <![CDATA[Destination City :Pune]]>
+    </line>
+    <line>
+      <![CDATA[Departure Date :01/11/2020]]>
+    </line>
+    <line>
+      <![CDATA[Method:user_click_on_Search_button]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Method: validate_user_is_in_FLightbooking_page]]>
+    </line>
+    <line>
+      <![CDATA[User in on Flight Booking Page]]>
+    </line>
+    <line>
+      <![CDATA[ 
+ book fastest and cheapest flight]]>
+    </line>
+    <line>
+      <![CDATA[Fight going to book of time : 4]]>
+    </line>
+    <line>
+      <![CDATA[validate right flight is selected for booking]]>
+    </line>
+    <line>
+      <![CDATA[Tab Change]]>
+    </line>
+    <line>
+      <![CDATA[User in on Flight Booking Page]]>
+    </line>
+    <line>
+      <![CDATA[ 
+ book fastest and cheapest flight]]>
+    </line>
+    <line>
+      <![CDATA[Fight going to book of time : 23]]>
+    </line>
+    <line>
+      <![CDATA[validate right flight is selected for booking]]>
+    </line>
+    <line>
+      <![CDATA[Tab Change]]>
+    </line>
+    <line>
+      <![CDATA[Journey Route : new delhi → pune
+                                            
+                                            
+                                                
+                                                    
+                                                    
+                                                        sunday 01 nov 2020]]>
+    </line>
+    <line>
+      <![CDATA[Journey Date : Sunday 01 Nov 2020]]>
+    </line>
+    <line>
+      <![CDATA[Journey Time : 04:45]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Run Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Journey Route : kolkata → pune sunday 01 nov 2020]]>
+    </line>
+    <line>
+      <![CDATA[Journey Date : Sunday 01 Nov 2020]]>
+    </line>
+    <line>
+      <![CDATA[Journey Time : 23:35]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Run Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28061" started-at="2020-09-17T21:35:26 IST" finished-at="2020-09-17T21:35:54 IST">
+    <groups>
+    </groups>
+    <test name="Parallel Tests" duration-ms="28061" started-at="2020-09-17T21:35:26 IST" finished-at="2020-09-17T21:35:54 IST">
+      <class name="MyRunner.SafariTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.SafariTestRunner@7f010382]" name="setUpClass" is-config="true" duration-ms="129" started-at="2020-09-17T21:35:26 IST" finished-at="2020-09-17T21:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.SafariTestRunner@7f010382]" name="feature" duration-ms="24195" started-at="2020-09-17T21:35:27 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-17T21:35:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Flight Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method: Open browser and start EaseMyTrip]]>
+            </line>
+            <line>
+              <![CDATA[ 
+Safari is opening]]>
+            </line>
+            <line>
+              <![CDATA[ 
+Page Titile is as expected]]>
+            </line>
+            <line>
+              <![CDATA[  
+ Method : user_enter_source_and_destination_and_Departure_date]]>
+            </line>
+            <line>
+              <![CDATA[Scurce City :Delhi]]>
+            </line>
+            <line>
+              <![CDATA[Destination City :Pune]]>
+            </line>
+            <line>
+              <![CDATA[Departure Date :01/11/2020]]>
+            </line>
+            <line>
+              <![CDATA[Method:user_click_on_Search_button]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Method: validate_user_is_in_FLightbooking_page]]>
+            </line>
+            <line>
+              <![CDATA[User in on Flight Booking Page]]>
+            </line>
+            <line>
+              <![CDATA[ 
+ book fastest and cheapest flight]]>
+            </line>
+            <line>
+              <![CDATA[Fight going to book of time : 4]]>
+            </line>
+            <line>
+              <![CDATA[validate right flight is selected for booking]]>
+            </line>
+            <line>
+              <![CDATA[Tab Change]]>
+            </line>
+            <line>
+              <![CDATA[Journey Route : new delhi → pune
+                                            
+                                            
+                                                
+                                                    
+                                                    
+                                                        sunday 01 nov 2020]]>
+            </line>
+            <line>
+              <![CDATA[Journey Date : Sunday 01 Nov 2020]]>
+            </line>
+            <line>
+              <![CDATA[Journey Time : 04:45]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Run Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.SafariTestRunner@7f010382]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-09-17T21:35:51 IST" finished-at="2020-09-17T21:35:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.SafariTestRunner -->
+      <class name="MyRunner.ChromeTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.ChromeTestRunner@4313f5bc]" name="setUpClass" is-config="true" duration-ms="129" started-at="2020-09-17T21:35:26 IST" finished-at="2020-09-17T21:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.ChromeTestRunner@4313f5bc]" name="feature" duration-ms="27858" started-at="2020-09-17T21:35:27 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-17T21:35:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Flight Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method: Open browser and start EaseMyTrip]]>
+            </line>
+            <line>
+              <![CDATA[ 
+Chrome is opening]]>
+            </line>
+            <line>
+              <![CDATA[ 
+Page Titile is as expected]]>
+            </line>
+            <line>
+              <![CDATA[  
+ Method : user_enter_source_and_destination_and_Departure_date]]>
+            </line>
+            <line>
+              <![CDATA[Scurce City :Kolkata]]>
+            </line>
+            <line>
+              <![CDATA[Destination City :Pune]]>
+            </line>
+            <line>
+              <![CDATA[Departure Date :01/11/2020]]>
+            </line>
+            <line>
+              <![CDATA[Method:user_click_on_Search_button]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Method: validate_user_is_in_FLightbooking_page]]>
+            </line>
+            <line>
+              <![CDATA[User in on Flight Booking Page]]>
+            </line>
+            <line>
+              <![CDATA[ 
+ book fastest and cheapest flight]]>
+            </line>
+            <line>
+              <![CDATA[Fight going to book of time : 23]]>
+            </line>
+            <line>
+              <![CDATA[validate right flight is selected for booking]]>
+            </line>
+            <line>
+              <![CDATA[Tab Change]]>
+            </line>
+            <line>
+              <![CDATA[Journey Route : kolkata → pune sunday 01 nov 2020]]>
+            </line>
+            <line>
+              <![CDATA[Journey Date : Sunday 01 Nov 2020]]>
+            </line>
+            <line>
+              <![CDATA[Journey Time : 23:35]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Run Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.ChromeTestRunner@4313f5bc]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-09-17T21:35:54 IST" finished-at="2020-09-17T21:35:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.ChromeTestRunner -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
